@@ -1,0 +1,13 @@
+{
+ 
+  "user1": {
+    "username": "zigger1@yopmail.com",
+    "password": "Test.123"
+  },
+
+  "verifiedUser":{
+    "username": "gabid@yopmail.com",
+    "password": "Test.123"
+  }
+
+}

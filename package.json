@@ -1,0 +1,29 @@
+{
+  "name": "xpassa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "test:login": "cypress run --browser chrome --spec cypress/e2e/login.cy.js",
+    "test:report": "cypress run --browser chrome && open cypress/reports/xpassa-test-report.html"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahzeel/Xpassa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahzeel/Xpassa/issues"
+  },
+  "homepage": "https://github.com/mahzeel/Xpassa#readme",
+  "devDependencies": {
+    "cypress": "^16.2.0",
+    "cypress-mailosaur": "^5.0.0",
+    "cypress-mochawesome-reporter": "^5.0.0"
+  }
+}
